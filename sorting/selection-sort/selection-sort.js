@@ -1,4 +1,4 @@
-// comparison function is of the form (T1: Any, T2:Any) => B: Boolean
+// comparison function is of the form (T1: T, T2: T) => B: Boolean
 
 function selectionSort(input, comparisonFunction) {
   for(let index = 0; index < input.length; index ++){
