@@ -1,15 +1,15 @@
 // comparison function is of the form (T1: T, T2: T) => B: Boolean
 
 function bubbleSort(input, comparisonFunction) {
-  let swap = true
-  while(swap) {
-    swap = false
+  let swapped = true
+  while(swapped) {
+    swapped = false
     for(let first = 0, second = 1, temp; second < input.length; first++, second++) {
       if(comparisonFunction(input[first], input[second])) {
         temp = input[second]
         input[second] = input[first]
         input[first] = temp
-        swap = true
+        swapped = true
       }
     }
   }
