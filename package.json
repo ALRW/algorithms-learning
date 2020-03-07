@@ -1,0 +1,22 @@
+{
+  "name": "algorithms-learning",
+  "version": "1.0.0",
+  "description": "Algorithm learning repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALRW/algorithms-learning.git"
+  },
+  "author": "ALRW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ALRW/algorithms-learning/issues"
+  },
+  "homepage": "https://github.com/ALRW/algorithms-learning#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
